@@ -1,0 +1,16 @@
+INSTUPlabs.common.ConfigUtil
+/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigUtil.py
+INFOS:&&3|1|2|0|3|10|1&&1|4|2|0|3|12|7&&2|5|2|4|3|15|9&&3|6|2|7|3|16|9&&2|8|2|4|3|19|9&&3|9|2|10|3|20|9&&3|11|2|10|3|21|9&&2|12|2|4|3|24|9&&3|1|2|13|3|26|9
+labs.common.ConfigUtil=2
+/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigUtil.py=3
+getProperty=8
+loadConfig=12
+ConfigUtil=4
+ConfigUtil.loadConfig=13
+ConfigUtil.__init__=7
+section=9
+ConfigUtil.getProperty=10
+__init__=5
+addr=6
+config=1
+key=11

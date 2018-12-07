@@ -1,0 +1,58 @@
+'''
+Created on Dec 4, 2018
+
+@author: rocky_yan
+'''
+import paho.mqtt.client as mqtt
+
+class MqttClientConnector():
+
+    _host = "101.200.46.138"
+    _port = 1883
+    _brokerAddr = None
+    _mqttClient = mqtt.Client()
+
+    def _init_(self,host,port,on_mqtt_connect,on_message,on_pulish,on_subscribe): 
+        
+        
+        self._host = host
+        self._port = port
+        self._brokerAddr = host +":" + str(port)
+        self._mqttClient = mqtt.Client()
+        self._mqttClient.on_mqtt_connect=
+        
+
+
+    # 连接MQTT服务器
+    def on_mqtt_connect(self):
+        self._mqttClient.connect(self._host, self._port, 60)
+        _mqttClient.loop_start()
+    
+    
+    # publish 消息
+    def on_publish(self,topic, payload, qos):
+        mqttClient.publish(topic, payload, qos)
+    
+    # 消息处理函数
+    def on_message_come(self,client, userdata, msg):
+    
+        print(msg.topic + " " + ":" + str(msg.payload))
+    
+    
+    # subscribe 消息
+    def on_subscribe(self):
+        mqttClient.subscribe("/server", 1)
+        mqttClient.on_message = on_message_come # 消息到来处理函数
+    
+    
+    def main():
+        on_mqtt_connect()
+        on_publish("/test/server", "Hello Python!", 1)
+        on_subscribe()
+        while True:
+            pass
+    
+    
+    
+    if __name__ == '__main__':
+        main()

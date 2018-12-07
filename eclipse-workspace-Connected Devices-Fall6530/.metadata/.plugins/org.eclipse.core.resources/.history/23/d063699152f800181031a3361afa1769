@@ -1,0 +1,17 @@
+'''
+Created on Dec 5, 2018
+
+@author: rocky_yan
+'''
+from labs.semesterproject import mqttTest
+TemperatureSensorAdaptor = TempSensorAdaptor.TempSensorAdaptor()
+TemperatureSensorAdaptor.daemon = True
+
+print("Starting system performance app daemon thread...")
+TemperatureSensorAdaptor.enableEmulator = True
+
+TemperatureSensorAdaptor.start()
+
+while (True):
+    sleep(7)
+    pass

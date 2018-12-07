@@ -1,0 +1,34 @@
+package semesterproject;
+
+import iotConnectedDevicesGateway.labs.module8.MqttClientConnector;
+
+public class GatewayManagementApp{
+
+
+
+	public void run() {
+		//Start CoAP server
+		try {
+			CoapServerConnector coapserver = new CoapServerConnector();
+			coapserver.start();
+		}catch(Exception e) {
+			System.out.println("Start Failed");
+		}
+		
+		//Start Mqtt clientCloud
+		String _host = "things.ubidots.com";
+		String _userName = "A1E-rM4nKgQpTjSiZWtkLFurahk0TDzs9C";
+		String _authToken= null;
+		String _pemFileName = "/Users/rocky_yan/Desktop/ubidots_cert.pem";
+		
+
+		MqttClientConnectorCloud _mqttClient = new MqttClientConnectorCloud(_host,_userName, _authToken,_pemFileName);
+		_mqttClient.connect();
+	}
+	
+	public static void main(String[] args) {
+		GatewayManagementApp gatewayApp = new GatewayManagementApp();
+		gatewayApp.run();
+	}
+	
+}

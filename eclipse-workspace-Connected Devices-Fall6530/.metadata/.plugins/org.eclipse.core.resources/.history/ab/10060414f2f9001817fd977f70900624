@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+encoding//apps/labs/common/ConfigUtil.py=UTF-8
+encoding//apps/labs/semesterproject/mqttClient.py=utf-8
+encoding//apps/labs/semesterproject/mqttTest.py=utf-8
