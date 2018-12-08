@@ -47,9 +47,13 @@ public class TempActuatorSubscriberApp {
 
 		_mqttClient = new MqttClientConnector(_host,_userName, _authToken,_pemFileName);
 		_mqttClient.connect();
-		String topicName = "/v1.6/devices/homeiotgateway/tempactuator";
 
-		_mqttClient.subscribeToTopic(topicName, 2);
-
+		String topicName1 = "/v1.6/devices/homeiotgateway/tempsensor";
+		String topicName2 = "/v1.6/devices/homeiotgateway/tempactuator";
+		String topicName3 = "/v1.6/devices/homeiotgateway/averagetemp";
+		
+		_mqttClient.subscribeToTopic(topicName1, 0);
+		_mqttClient.subscribeToTopic(topicName2, 0);
+		_mqttClient.subscribeToTopic(topicName3, 0);
 	}
 }

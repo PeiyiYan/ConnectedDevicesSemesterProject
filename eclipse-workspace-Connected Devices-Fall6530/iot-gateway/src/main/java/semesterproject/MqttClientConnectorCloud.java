@@ -17,6 +17,7 @@ import java.util.logging.Logger;
 import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManagerFactory;
 
+import org.eclipse.californium.core.coap.CoAP.ResponseCode;
 import org.eclipse.paho.client.mqttv3.IMqttDeliveryToken;
 import org.eclipse.paho.client.mqttv3.MqttCallback;
 import org.eclipse.paho.client.mqttv3.MqttClient;
@@ -43,7 +44,7 @@ public class MqttClientConnectorCloud implements MqttCallback {
 	// constructors
 	/**
 	 * Constructor.
-	 *
+	 * This Constructor is for the Cloud
 	 * @param host     The name of the broker to connect.
 	 * @param isSecure Currently unused.
 	 */
@@ -72,6 +73,29 @@ public class MqttClientConnectorCloud implements MqttCallback {
 			}
 		}
 		_clientID = MqttClient.generateClientId();
+		_brokerAddr = _protocol + "://" + _host + ":" + _port;
+		_Logger.info("Using URL for broker conn: " + _brokerAddr);
+	}
+	
+	/**
+	 * Constructor 
+	 * This Constructor is for the Local Mqtt
+	 * @param protocol
+	 * @param host
+	 * @param port
+	 */
+	public MqttClientConnectorCloud(String protocol, String host, int port) {
+		super();
+		if (host != null && host.trim().length() > 0) {
+			_protocol = protocol;
+			_host = host;
+			_port = port;
+		} /**
+			 * NOTE: URL does not have a protocol handler for "tcp", so we need to construct
+			 * the URL manually
+			 */
+		_clientID = MqttClient.generateClientId();
+		_Logger.info("Using client ID for broker conn: " + _clientID);
 		_brokerAddr = _protocol + "://" + _host + ":" + _port;
 		_Logger.info("Using URL for broker conn: " + _brokerAddr);
 	}
@@ -230,8 +254,13 @@ public class MqttClientConnectorCloud implements MqttCallback {
 		}
 	}
 
-
+	//when we finished the subscription, the messageArrived function will be implemented automatically.
+	//So we can publish the return temperature to the mosquitto server
 	public void messageArrived(String data, MqttMessage msg) throws Exception {
+		 MqttClientConnectorLocal _mqttClientback = new MqttClientConnectorLocal("tcp","test.mosquitto.org",1883);
+		 String feedback= new String(msg.getPayload());
+		  _mqttClientback.connect();
+		  _mqttClientback.publishMessage("Temperature Feedback", 1, feedback.getBytes());	
 		_Logger.info("Message arrived: " + data + ", " + msg.getId());
 		System.out.println("Message arrived: " + data + ", " + msg.getId());
 		_Logger.info(msg.toString());

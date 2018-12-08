@@ -195,9 +195,11 @@ public class MqttClientConnector implements MqttCallback
 	}
 	public boolean subscribeToTopic(String topic, int qosLevel)
 	{
+		MqttMessage message = new MqttMessage();
 		try {
 		_mqttClient.subscribe(topic,qosLevel);
 		System.out.println("Topic"+topic);
+		System.out.println(message.toString());
 		return true;
 		}
 		catch(MqttException e)

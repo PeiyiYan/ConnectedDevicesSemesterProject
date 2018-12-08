@@ -31,11 +31,11 @@ class TempSensorAdaptor (threading.Thread):
     enableEmulator = False
     rateInSec     = DEFAULT_RATE_IN_SEC
     lowVal = 0 
-    highVal = 30
+    highVal = 40
     curTemp = 0
     prevTempSet = 10
     isPrevTempSet = False
-    alertDiff = 5    
+    alertDiff = 20  
     
     def _init_(self,rateInSec = DEFAULT_RATE_IN_SEC):
         super(TempSensorAdaptor,self)._init_()

@@ -46,9 +46,9 @@ public class TempSensorPublisherApp
 
 		_mqttClient = new MqttClientConnector(_host,_userName, _authToken,_pemFileName);
 		_mqttClient.connect();
-		String topicName = "/v1.6/devices/homeiotgateway/Tempsensor";
+		String topicName1 = "/v1.6/devices/homeiotgateway/Tempsensor";
+
 		String payload = "28";
-		_mqttClient.publishMessage(topicName, 2, payload.getBytes());
-		_mqttClient.disconnect();
+		_mqttClient.publishMessage(topicName1, 0, payload.getBytes());
 	}
 }

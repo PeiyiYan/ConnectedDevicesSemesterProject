@@ -1,11 +1,12 @@
 -- VERSION_5
 -- START DISKCACHE_2
 /Users/rocky_yan/eclipse-workspace-Connected Devices/.metadata/.plugins/org.eclipse.core.resources/.projects/iot-device/com.python.pydev.analysis/v2_indexcache
+labs.semesterproject.MqttClientLocal|1544306242000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/MqttClientLocal.py
 labs.common.ConfigUtil|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigUtil.py
 RPi.__init__|1536443889000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/RPi/__init__.py
 labs.module06.__init__|1536444341000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module06/__init__.py
 labs.module09.__init__|1536444380000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module09/__init__.py
-labs.semesterproject.TemSensorAdaptor|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TemSensorAdaptor.py
+labs.semesterproject.TemSensorAdaptor|1544288215000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TemSensorAdaptor.py
 labs.module01.SystemPerformanceApp|1537022523000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/SystemPerformanceApp.py
 labs.common.ActuatorData|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ActuatorData.py
 labs.module03.TempManagmentApp|1543893954000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempManagmentApp.py
@@ -21,7 +22,7 @@ labs.module08.__init__|1536444416000000000|/Users/rocky_yan/eclipse-workspace-Co
 labs.module02.TempSimulatorApp|1538806262000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSimulatorApp.py
 labs.module02.TempSensorEmulator|1538876934000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSensorEmulator.py
 labs.module03.SenseHatLedActivator|1539405868000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SenseHatLedActivator.py
-labs.semesterproject.TempManagmentApp|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempManagmentApp.py
+labs.semesterproject.TempManagmentApp|1544288094000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempManagmentApp.py
 labs.module04.SensorReaderApp|1539486860000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/SensorReaderApp.py
 labs.semesterproject.SenseHatLedActivator|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SenseHatLedActivator.py
 labs.module04.I2CSenseHatAdaptor|1539482777000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/I2CSenseHatAdaptor.py
@@ -35,227 +36,234 @@ labs.common.SensorData|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Co
 labs.module02.SmtpClientConnector|1543896718000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/SmtpClientConnector.py
 labs.module03.SimpleLedActivator|1539405454000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SimpleLedActivator.py
 labs.module01.__init__|1536443985000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/__init__.py
-labs.semesterproject.CoAPClient|1544207327000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/CoAPClient.py
+labs.semesterproject.CoAPClient|1544231008000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/CoAPClient.py
 __init__|1536443946000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/__init__.py
 labs.module04.__init__|1536444268000000000|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/__init__.py
 -- END DISKCACHE
 -- START DICTIONARY
-93
-20=labs.common.ConfigUtil
-21=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSensorEmulator.py
-19=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigUtil.py
-49=SmtpClientConnector
-83=TempSensorEmulator._init_
-47=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempManagmentApp.py
-50=TempActuatorEmulator
-93=ActuatorData.setValue
-75=ActuatorData.setDifValue
-43=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempManagmentApp.py
-87=SenseHatLedActivator.__init__
-14=labs.common.ActuatorData
-48=labs.module03.TempManagmentApp
-5=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/I2CSenseHatAdaptor.py
-11=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempSensorAdaptor.py
-85=SystemPerformanceAdaptor._init_
+97
+23=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSensorEmulator.py
+51=SmtpClientConnector
+86=TempSensorEmulator._init_
+97=ActuatorData.setValue
+50=labs.module03.TempManagmentApp
 2=RPi.GPIO
-73=CoAPClient
-91=ActuatorData.updateTimeStamp
-52=SimpleLedActivator
-81=SensorData.setName
-25=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/SensorReaderApp.py
-54=SenseHat
-66=ActuatorData.setCommand
-72=SmtpClientConnector.__init__
-76=SenseHatLedActivator.setDisplayMessage
-90=ActuatorData.setStateData
-79=ActuatorData.setErrorCode
-3=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/CoAPClient.py
-30=labs.module03.SenseHatLedActivator
-71=TempActuatorEmulator.__init__
-26=labs.module04.SensorReaderApp
-32=labs.semesterproject.SenseHatLedActivator
-89=ActuatorData.setStatusCode
-6=labs.module04.I2CSenseHatAdaptor
-29=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SenseHatLedActivator.py
-61=I2CSenseHatAdaptor.initI2CBus
-84=SimpleLedActivator.__init__
+59=CoAPClient
+95=ActuatorData.updateTimeStamp
+84=SensorData.setName
+56=SenseHat
+70=ActuatorData.setCommand
+76=SmtpClientConnector.__init__
+94=ActuatorData.setStateData
+82=ActuatorData.setErrorCode
+19=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/CoAPClient.py
+32=labs.module03.SenseHatLedActivator
+34=labs.semesterproject.SenseHatLedActivator
+93=ActuatorData.setStatusCode
+31=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SenseHatLedActivator.py
 17=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigConst.py
-39=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SmtpClientConnector.py
-53=SenseHatLedActivator
-67=ActuatorData.updateData
-78=SenseHatLedActivator.setEnableLedFlag
-64=SensorData.addValue
-82=ActuatorData.setName
-23=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/SystemPerformanceAdaptor.py
-37=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/SmtpClientConnector.py
+41=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SmtpClientConnector.py
+71=ActuatorData.updateData
+81=SenseHatLedActivator.setEnableLedFlag
+85=ActuatorData.setName
+25=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/SystemPerformanceAdaptor.py
+39=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/SmtpClientConnector.py
 1=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/RPi/GPIO.py
-7=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempActuatorEmulator.py
-63=ConfigUtil.__init__
+5=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempActuatorEmulator.py
+66=ConfigUtil.__init__
 16=labs.semesterproject.TemSensorAdaptor
-27=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/SensorData.py
-42=labs.module01.SystemPerformanceApp
-35=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SimpleLedActivator.py
-57=I2CSenseHatAdaptor
-15=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TemSensorAdaptor.py
-33=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/sense_hat.py
-86=TempSensorAdaptor._init_
-24=labs.module01.SystemPerformanceAdaptor
+37=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/SimpleLedActivator.py
+89=TempSensorAdaptor._init_
 12=labs.module03.TempSensorAdaptor
-92=SensorData.__init__
+96=SensorData.__init__
 18=labs.common.ConfigConst
-62=TempSensorAdaptor.run
-68=TempActuatorEmulator.processMessage
-65=SenseHat.clear
-60=SystemPerformanceAdaptor
-46=labs.module02.TempSimulatorApp
-22=labs.module02.TempSensorEmulator
-56=ConfigUtil
-69=I2CSenseHatAdaptor.__init__
-70=ConfigUtil.loadConfig
-31=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SenseHatLedActivator.py
-88=SenseHat.set_rotation
-51=SensorData
-44=labs.semesterproject.TempManagmentApp
-55=ActuatorData
-9=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempActuatorEmulator.py
+24=labs.module02.TempSensorEmulator
+73=I2CSenseHatAdaptor.__init__
+91=SenseHat.set_rotation
+53=SensorData
+46=labs.semesterproject.TempManagmentApp
+7=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempActuatorEmulator.py
+40=labs.module02.SmtpClientConnector
+20=labs.semesterproject.CoAPClient
+61=TempSensorEmulator
+83=ConfigUtil.getProperty
+10=labs.semesterproject.MqttClientLocal
+22=labs.common.ConfigUtil
+21=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ConfigUtil.py
+49=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempManagmentApp.py
+52=TempActuatorEmulator
+78=ActuatorData.setDifValue
+45=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TempManagmentApp.py
+90=SenseHatLedActivator.__init__
+14=labs.common.ActuatorData
+3=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/I2CSenseHatAdaptor.py
+11=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module03/TempSensorAdaptor.py
+88=SystemPerformanceAdaptor._init_
+69=CoAPClient.initClient
+54=SimpleLedActivator
+27=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module04/SensorReaderApp.py
+79=SenseHatLedActivator.setDisplayMessage
+75=TempActuatorEmulator.__init__
+28=labs.module04.SensorReaderApp
+4=labs.module04.I2CSenseHatAdaptor
+64=I2CSenseHatAdaptor.initI2CBus
+87=SimpleLedActivator.__init__
+55=SenseHatLedActivator
+67=SensorData.addValue
+29=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/SensorData.py
+44=labs.module01.SystemPerformanceApp
+60=I2CSenseHatAdaptor
+15=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TemSensorAdaptor.py
+35=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/sense_hat.py
+26=labs.module01.SystemPerformanceAdaptor
+9=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/MqttClientLocal.py
+65=TempSensorAdaptor.run
+72=TempActuatorEmulator.processMessage
+68=SenseHat.clear
+63=SystemPerformanceAdaptor
+48=labs.module02.TempSimulatorApp
+58=ConfigUtil
+74=ConfigUtil.loadConfig
+33=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SenseHatLedActivator.py
+57=ActuatorData
 13=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/common/ActuatorData.py
-34=sense_hat
-10=labs.semesterproject.TempActuatorEmulator
-40=labs.semesterproject.SmtpClientConnector
-8=labs.module03.TempActuatorEmulator
-28=labs.common.SensorData
-36=labs.module03.SimpleLedActivator
-38=labs.module02.SmtpClientConnector
-77=SimpleLedActivator.setEnableLedFlag
-4=labs.semesterproject.CoAPClient
-58=TempSensorEmulator
-80=ConfigUtil.getProperty
-41=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/SystemPerformanceApp.py
-74=TempSensorEmulator.run
-59=TempSensorAdaptor
-45=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSimulatorApp.py
+36=sense_hat
+8=labs.semesterproject.TempActuatorEmulator
+42=labs.semesterproject.SmtpClientConnector
+6=labs.module03.TempActuatorEmulator
+30=labs.common.SensorData
+38=labs.module03.SimpleLedActivator
+80=SimpleLedActivator.setEnableLedFlag
+43=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module01/SystemPerformanceApp.py
+77=TempSensorEmulator.run
+92=CoAPClient.__init__
+62=TempSensorAdaptor
+47=/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module02/TempSimulatorApp.py
 -- END DICTIONARY
 -- START TREE 1
 58
 IN|1|IN!1^10#1*19@
-__i|1|__init__!3^20#5*34@
+__i|0|
 _br|0|
 _ho|0|
 _mq|0|
 _po|0|
-acc|2|accelerometer!5^30#1*51@accelAddr!5^20#1*51@
-act|5|actuatorData!7^15#1*67@actuatorData!9^17#1*83@actuatorData!11^23#1*99@ActuatorData!13^23#7*113@actuatorData!15^28#1*131@
+acc|2|accelerometer!3^30#1*35@accelAddr!3^20#1*35@
+act|6|actuatorData!5^15#1*51@actuatorData!7^17#1*67@Activator!9^9#1*83@actuatorData!11^23#1*99@ActuatorData!13^23#7*113@actuatorData!15^28#1*131@
 bcm|1|BCM!1^7#1*19@
-beg|1|begAddr!5^25#1*51@
+beg|1|begAddr!3^25#1*35@
 boa|1|BOARD!1^6#1*19@
 cle|2|clear!1^18#5*18@clearFlag!1^14#1*19@
 cli|0|
 clo|6|CLOUD_API_KEY!17^29#1*147@CLOUD_COAP_HOST!17^32#1*147@CLOUD!17^11#1*147@CLOUD_COAP_PORT!17^33#1*147@CLOUD_MQTT_BROKER!17^30#1*147@CLOUD_MQTT_PORT!17^31#1*147@
-coa|6|COAP_DEVICE_SECTION!17^27#1*147@CoAPClient!15^26#1*131@COAP_CLOUD_SECTION!17^23#1*147@COAP_GATEWAY_SECTION!17^25#1*147@CoAPClient!3^12#7*33@COAP!17^13#1*147@
+coa|6|COAP_DEVICE_SECTION!17^27#1*147@COAP_CLOUD_SECTION!17^23#1*147@COAP_GATEWAY_SECTION!17^25#1*147@CoAPClientt!15^26#1*131@CoAPClient!19^10#7*161@COAP!17^13#1*147@
 com|4|COMMAND_ON!13^12#1*115@COMMAND_OFF!13^11#1*115@COMMAND_SET!13^13#1*115@COMMAND_RESET!13^14#1*115@
-con|6|connector!11^20#1*99@config!19^10#1*163@connector!15^23#1*131@connector!21^18#1*179@ConfigUtil!19^12#7*161@CONSTRAINED_DEVICE!17^16#1*147@
+con|6|connector!11^20#1*99@config!21^10#1*179@connector!15^23#1*131@connector!23^18#1*195@ConfigUtil!21^12#7*177@CONSTRAINED_DEVICE!17^16#1*147@
 cur|2|curPin!1^16#1*19@curDir!1^17#1*19@
-def|7|DEFAULT_CONFIG_FILE_NAME!17^10#1*147@DEFAULT_RATE_IN_SEC!23^13#1*195@DEFAULT_RATE_IN_SEC!15^20#1*131@DEFAULT_RATE_IN_SEC!21^15#1*179@DEFAULT_PIN!1^12#1*19@DEFAULT_RATE_IN_SEC!5^28#1*51@DEFAULT_RATE_IN_SEC!11^17#1*99@
+def|7|DEFAULT_CONFIG_FILE_NAME!17^10#1*147@DEFAULT_RATE_IN_SEC!25^13#1*211@DEFAULT_RATE_IN_SEC!15^20#1*131@DEFAULT_RATE_IN_SEC!23^15#1*195@DEFAULT_PIN!1^12#1*19@DEFAULT_RATE_IN_SEC!3^28#1*35@DEFAULT_RATE_IN_SEC!11^17#1*99@
 dev|2|DEVICE!17^18#1*147@DEVICE_SECTION!17^50#1*147@
 emu|2|emulator!11^21#1*99@emulator!15^24#1*131@
-ena|6|ENABLE_AUTH_KEY!17^44#1*147@enableMeasure!5^18#1*51@ENABLE_LOGGING_KEY!17^47#1*147@ENABLE_CRYPT_KEY!17^45#1*147@ENABLE_EMULATOR_KEY!17^46#1*147@enableControl!5^17#1*51@
+ena|6|ENABLE_AUTH_KEY!17^44#1*147@enableMeasure!3^18#1*35@ENABLE_LOGGING_KEY!17^47#1*147@ENABLE_CRYPT_KEY!17^45#1*147@ENABLE_EMULATOR_KEY!17^46#1*147@enableControl!3^17#1*35@
 err|3|ERROR_COMMAND_FAILED!13^20#1*115@ERROR_NON_RESPONSIBLE!13^21#1*115@ERROR_OK!13^19#1*115@
 fro|1|FROM_ADDRESS_KEY!17^34#1*147@
 gat|1|GATEWAY_DEVICE!17^15#1*147@
-han|2|handlePostTest!3^67#5*34@handleGetTest!3^51#5*34@
+han|0|
 hig|1|HIGH!1^9#1*19@
 hos|1|HOST_KEY!17^38#1*147@
-hum|2|humidAddr!5^23#1*51@humidity!5^33#1*51@
-i2c|3|I2C!25^11#1*211@i2cBus!5^15#1*51@I2CSenseHatAdaptor!5^37#7*49@
-ini|1|initClient!3^41#5*34@
+hum|2|humidAddr!3^23#1*35@humidity!3^33#1*35@
+i2c|3|I2C!27^11#1*227@i2cBus!3^15#1*35@I2CSenseHatAdaptor!3^37#7*33@
+ini|0|
 low|1|LOW!1^8#1*19@
-mag|2|magnetometer!5^31#1*51@magAddr!5^21#1*51@
+mag|2|magnetometer!3^31#1*35@magAddr!3^21#1*35@
 mai|0|
-mc|0|
+mc|1|mc!9^24#1*83@
 mod|1|mode!1^15#1*19@
 mqt|4|MQTT_GATEWAY_SECTION!17^24#1*147@MQTT_DEVICE_SECTION!17^26#1*147@MQTT_CLOUD_SECTION!17^22#1*147@MQTT!17^12#1*147@
 nom|1|NOMINALTEMP!17^51#1*147@
-on_|0|
+on_|2|on_message!9^20#5*82@on_connect!9^11#5*82@
 out|2|OUT!1^11#1*19@output!1^20#5*18@
 pol|1|POLL_CYCLES_KEY!17^48#1*147@
 por|1|PORT_KEY!17^39#1*147@
-pre|2|pressure!5^32#1*51@pressAddr!5^22#1*51@
+pre|2|pressure!3^32#1*35@pressAddr!3^22#1*35@
 rot|1|rotateDeg!1^13#1*19@
 sec|2|SECURE_PORT_KEY!17^40#1*147@SECTION_SEPARATOR!17^9#1*147@
-sen|9|sensehat!15^25#1*131@sensordata!11^19#1*99@sensordata!15^22#1*131@senseHat!9^19#1*83@SensorData!27^11#7*225@SenseHatLedActivator!29^9#7*241@SenseHatLedActivator!31^12#7*257@SenseHat!33^7#7*273@senseHat!7^17#1*67@
+sen|9|sensehat!15^25#1*131@sensordata!11^19#1*99@senseHat!7^19#1*67@sensordata!15^22#1*131@SensorData!29^11#7*241@SenseHatLedActivator!31^9#7*257@SenseHatLedActivator!33^12#7*273@SenseHat!35^7#7*289@senseHat!5^17#1*51@
 set|3|set_rotation!1^23#5*18@setmode!1^25#5*18@setup!1^27#5*18@
-sim|1|SimpleLedActivator!35^10#7*289@
-smt|4|SmtpClientConnector!37^15#7*305@SmtpClientConnector!39^18#7*321@SMTP_CLOUD_SECTION!17^21#1*147@SMTP!17^14#1*147@
-ssd|1|ssd!21^17#1*179@
+sim|1|SimpleLedActivator!37^10#7*305@
+smt|4|SmtpClientConnector!39^15#7*321@SmtpClientConnector!41^18#7*337@SMTP_CLOUD_SECTION!17^21#1*147@SMTP!17^14#1*147@
+ssd|1|ssd!23^17#1*195@
 sta|2|STATUS_IDLE!13^16#1*115@STATUS_ACTIVE!13^17#1*115@
-sys|2|sysPerfAdaptor!41^12#1*339@SystemPerformanceAdaptor!23^15#7*193@
-tem|8|TemperatureSensorAdaptor!43^12#1*355@temp!45^10#1*371@TemperatureSensorAdaptor!47^8#1*387@TempActuatorEmulator!7^20#7*65@TempSensorEmulator!21^20#7*177@TempSensorAdaptor!15^30#7*129@TempSensorAdaptor!11^25#7*97@TempActuatorEmulator!9^22#7*81@
+sys|2|sysPerfAdaptor!43^12#1*355@SystemPerformanceAdaptor!25^15#7*209@
+tem|8|TemperatureSensorAdaptor!45^12#1*371@temp!47^10#1*387@TemperatureSensorAdaptor!49^8#1*403@TempActuatorEmulator!5^20#7*49@TempSensorEmulator!23^20#7*193@TempSensorAdaptor!15^30#7*129@TempSensorAdaptor!11^25#7*97@TempActuatorEmulator!7^22#7*65@
 tes|0|
 to_|3|TO_MEDIA_ADDRESS_KEY!17^36#1*147@TO_TXT_ADDRESS_KEY!17^37#1*147@TO_ADDRESS_KEY!17^35#1*147@
-tot|1|totBytes!5^26#1*51@
+tot|1|totBytes!3^26#1*35@
 ubi|2|UBIDOTS!17^17#1*147@UBIDOTS_CLOUD_SECTION!17^20#1*147@
 use|2|USER_AUTH_TOKEN_KEY!17^43#1*147@USER_NAME_TOKEN_KEY!17^42#1*147@
 -- END TREE
 -- START TREE 2
-60
-__i|12|__init__!49&37^16#9*306@__init__!50&9^27#9*82@__init__!49&39^19#9*322@__init__!51&27^23#9*226@__init__!52&35^13#9*290@__init__!53&29^16#9*242@__init__!54&33^10#9*274@__init__!50&7^25#9*66@__init__!55&13^37#9*114@__init__!56&19^15#9*162@__init__!53&31^19#9*258@__init__!57&5^40#9*50@
-__s|2|__str__!55&13^95#9*114@__str__!51&27^46#9*226@
+63
+__i|13|__init__!51&39^16#9*322@__init__!52&7^27#9*66@__init__!51&41^19#9*338@__init__!53&29^23#9*242@__init__!54&37^13#9*306@__init__!55&31^16#9*258@__init__!56&35^10#9*290@__init__!52&5^25#9*50@__init__!57&13^37#9*114@__init__!58&21^15#9*178@__init__!59&19^18#9*162@__init__!55&33^19#9*274@__init__!60&3^40#9*34@
+__s|2|__str__!57&13^95#9*114@__str__!53&29^46#9*242@
 _br|0|
 _ho|0|
-_in|4|_init_!58&21^30#9*178@_init_!59&15^40#9*130@_init_!59&11^35#9*98@_init_!60&23^19#9*194@
+_in|4|_init_!61&23^30#9*194@_init_!62&15^40#9*130@_init_!62&11^35#9*98@_init_!63&25^19#9*210@
 _mq|0|
 _po|0|
-acc|1|accelerometer!61&5^58#9*51@
-act|2|actuatorData!62&11^59#25*99@actuatorData!62&15^67#25*131@
-add|2|addr!63&19^16#9*163@addValue!51&27^25#9*226@
-ale|3|alertDiff!58&21^28#5*179@alertDiff!59&11^33#5*99@alertDiff!59&15^38#5*131@
-avg|2|avgValue!51&27^15#5*227@avgValue!64&27^35#13*227@
-cle|3|clear!54&33^12#9*274@clearFlag!54&33^9#5*275@clearFlag!65&33^13#9*275@
-com|7|command!55&13^27#5*115@command!66&13^68#9*115@command!67&13^86#9*115@command!50&7^22#5*67@command!68&7^38#13*67@command!50&9^24#5*83@command!68&9^42#13*83@
-con|7|config!69&5^43#9*51@config!70&19^26#9*163@config!71&7^26#9*67@config!72&37^17#9*307@config!73&3^15#5*35@config!72&39^20#9*323@config!71&9^28#9*83@
-cur|8|curTemp!58&21^25#5*179@curTemp!74&21^39#17*179@curValue!51&27^14#5*227@curValue!64&27^29#9*227@curTemp!59&15^35#5*131@curTemp!62&15^50#17*131@curTemp!59&11^30#5*99@curTemp!62&11^44#17*99@
-dif|2|difValue!55&13^32#5*115@difValue!75&13^65#9*115@
-dis|8|displayMsg!53&29^14#5*243@displayMsg!76&29^44#9*243@displayMagnetometerData!57&5^70#9*50@displayMsg!53&31^17#5*259@displayMsg!76&31^47#9*259@displayHumidityData!57&5^78#9*50@displayPressureData!57&5^74#9*50@displayAccelerometerData!57&5^66#9*50@
-ena|10|enableLed!52&35^11#5*291@enableLed!77&35^30#9*291@enableEmulator!59&11^26#5*99@enableLed!53&29^10#5*243@enableLed!78&29^42#9*243@enableAdaptor!60&23^16#5*195@enableEmulator!58&21^21#5*179@enableLed!53&31^13#5*259@enableLed!78&31^45#9*259@enableEmulator!59&15^31#5*131@
-err|3|errCode!55&13^28#5*115@errCode!79&13^76#9*115@errCode!67&13^88#9*115@
-get|20|getStateData!55&13^49#9*114@getValue!51&27^42#9*226@getRateInSeconds!52&35^26#9*290@get_pressure!54&33^24#9*274@getStatusCode!55&13^52#9*114@getMaxValue!51&27^38#9*226@getCommand!55&13^43#9*114@getAvgValue!51&27^36#9*226@getDifValue!55&13^40#9*114@get_temperature_from_pressure!54&33^22#9*274@getName!55&13^46#9*114@get_temperature_from_humidity!54&33^19#9*274@getRateInSeconds!53&31^40#9*258@getRateInSeconds!53&29^37#9*242@getErrorCode!55&13^55#9*114@get_temperature!54&33^17#9*274@get_humidity!54&33^14#9*274@getMinValue!51&27^40#9*226@getValue!55&13^58#9*114@getProperty!56&19^19#9*162@
-has|3|hasError!55&13^26#5*115@hasError!55&13^61#9*114@hasError!79&13^78#13*115@
-hig|3|highVal!59&15^34#5*131@highVal!59&11^29#5*99@highVal!58&21^24#5*179@
-hos|1|host!73&3^17#5*35@
-hum|1|humidity!61&5^61#9*51@
-ini|1|initI2CBus!57&5^50#9*50@
+acc|1|accelerometer!64&3^58#9*35@
+act|2|actuatorData!65&11^59#25*99@actuatorData!65&15^67#25*131@
+add|2|addr!66&21^16#9*179@addValue!53&29^25#9*242@
+ale|3|alertDiff!61&23^28#5*195@alertDiff!62&11^33#5*99@alertDiff!62&15^38#5*131@
+avg|2|avgValue!53&29^15#5*243@avgValue!67&29^35#13*243@
+cle|3|clear!56&35^12#9*290@clearFlag!56&35^9#5*291@clearFlag!68&35^13#9*291@
+cli|1|client!69&19^34#13*163@
+com|7|command!57&13^27#5*115@command!70&13^68#9*115@command!71&13^86#9*115@command!52&5^22#5*51@command!72&5^38#13*51@command!52&7^24#5*67@command!72&7^42#13*67@
+con|7|config!73&3^43#9*35@config!74&21^26#9*179@config!75&5^26#9*51@config!76&39^17#9*323@config!76&41^20#9*339@config!59&19^13#5*163@config!75&7^28#9*67@
+cur|8|curTemp!61&23^25#5*195@curTemp!77&23^39#17*195@curValue!53&29^14#5*243@curValue!67&29^29#9*243@curTemp!62&15^35#5*131@curTemp!65&15^50#17*131@curTemp!62&11^30#5*99@curTemp!65&11^44#17*99@
+dif|2|difValue!57&13^32#5*115@difValue!78&13^65#9*115@
+dis|8|displayMsg!55&31^14#5*259@displayMsg!79&31^44#9*259@displayMagnetometerData!60&3^70#9*34@displayMsg!55&33^17#5*275@displayMsg!79&33^47#9*275@displayHumidityData!60&3^78#9*34@displayPressureData!60&3^74#9*34@displayAccelerometerData!60&3^66#9*34@
+ena|10|enableLed!54&37^11#5*307@enableLed!80&37^30#9*307@enableEmulator!62&11^26#5*99@enableLed!55&31^10#5*259@enableLed!81&31^42#9*259@enableAdaptor!63&25^16#5*211@enableEmulator!61&23^21#5*195@enableLed!55&33^13#5*275@enableLed!81&33^45#9*275@enableEmulator!62&15^31#5*131@
+err|3|errCode!57&13^28#5*115@errCode!82&13^76#9*115@errCode!71&13^88#9*115@
+get|20|getStateData!57&13^49#9*114@getValue!53&29^42#9*242@getRateInSeconds!54&37^26#9*306@get_pressure!56&35^24#9*290@getStatusCode!57&13^52#9*114@getMaxValue!53&29^38#9*242@getCommand!57&13^43#9*114@getAvgValue!53&29^36#9*242@getDifValue!57&13^40#9*114@get_temperature_from_pressure!56&35^22#9*290@getName!57&13^46#9*114@get_temperature_from_humidity!56&35^19#9*290@getRateInSeconds!55&33^40#9*274@getRateInSeconds!55&31^37#9*258@getErrorCode!57&13^55#9*114@get_temperature!56&35^17#9*290@get_humidity!56&35^14#9*290@getMinValue!53&29^40#9*242@getValue!57&13^58#9*114@getProperty!58&21^19#9*178@
+han|2|handlePostTest!59&19^58#9*162@handleGetTest!59&19^42#9*162@
+has|3|hasError!57&13^26#5*115@hasError!57&13^61#9*114@hasError!82&13^78#13*115@
+hig|3|highVal!62&15^34#5*131@highVal!62&11^29#5*99@highVal!61&23^24#5*195@
+hos|1|host!59&19^15#5*163@
+hum|1|humidity!64&3^61#9*35@
+ini|2|initClient!59&19^32#9*162@initI2CBus!60&3^50#9*34@
 int|0|
-isp|6|isPrevTempSet!59&11^32#5*99@isPrevTempSet!62&11^53#21*99@isPrevTempSet!59&15^37#5*131@isPrevTempSet!62&15^61#21*131@isPrevTempSet!58&21^27#5*179@isPrevTempSet!74&21^47#21*179@
-key|1|key!80&19^21#9*163@
-loa|1|loadConfig!56&19^24#9*162@
-low|3|lowVal!58&21^23#5*179@lowVal!59&11^28#5*99@lowVal!59&15^33#5*131@
-mag|1|magnetometer!61&5^59#9*51@
+isp|6|isPrevTempSet!62&11^32#5*99@isPrevTempSet!65&11^53#21*99@isPrevTempSet!62&15^37#5*131@isPrevTempSet!65&15^61#21*131@isPrevTempSet!61&23^27#5*195@isPrevTempSet!77&23^47#21*195@
+key|1|key!83&21^21#9*179@
+loa|1|loadConfig!58&21^24#9*178@
+low|3|lowVal!61&23^23#5*195@lowVal!62&11^28#5*99@lowVal!62&15^33#5*131@
+mag|1|magnetometer!64&3^59#9*35@
 mai|0|
-max|2|maxValue!51&27^17#5*227@maxValue!64&27^33#13*227@
-min|2|minValue!51&27^16#5*227@minValue!64&27^31#13*227@
-nam|4|name!51&27^13#5*227@name!81&27^45#9*227@name!55&13^25#5*115@name!82&13^70#9*115@
-nom|2|nominalTemp!68&7^32#9*67@nominalTemp!68&9^36#9*83@
+max|2|maxValue!53&29^17#5*243@maxValue!67&29^33#13*243@
+min|2|minValue!53&29^16#5*243@minValue!67&29^31#13*243@
+nam|4|name!53&29^13#5*243@name!84&29^45#9*243@name!57&13^25#5*115@name!85&13^70#9*115@
+nom|2|nominalTemp!72&5^32#9*51@nominalTemp!72&7^36#9*67@
 on_|0|
 pay|0|
-por|1|port!73&3^18#5*35@
-pre|7|pressure!61&5^60#9*51@prevTemp!74&21^46#21*179@prevTempSet!59&11^31#5*99@prevTempSet!59&15^36#5*131@prevTempSet!58&21^26#5*179@prevTemp!62&15^60#21*131@prevTemp!62&11^52#21*99@
-pro|2|processMessage!50&7^31#9*66@processMessage!50&9^35#9*82@
-pub|2|publishMessage!49&39^22#9*322@publishMessage!49&37^19#9*306@
-rat|15|rateInSec!57&5^38#5*51@rateInSec!58&21^22#5*179@rateInSec!83&21^34#13*179@rateInSec!52&35^12#5*291@rateInSec!84&35^16#13*291@rateInSec!60&23^17#5*195@rateInSec!85&23^23#13*195@rateInSec!59&11^27#5*99@rateInSec!86&11^39#13*99@rateInSec!53&31^14#5*259@rateInSec!87&31^22#13*259@rateInSec!53&29^11#5*243@rateInSec!87&29^19#13*243@rateInSec!59&15^32#5*131@rateInSec!86&15^44#13*131@
+por|1|port!59&19^16#5*163@
+pre|7|pressure!64&3^60#9*35@prevTemp!77&23^46#21*195@prevTempSet!62&11^31#5*99@prevTempSet!62&15^36#5*131@prevTempSet!61&23^26#5*195@prevTemp!65&15^60#21*131@prevTemp!65&11^52#21*99@
+pro|2|processMessage!52&5^31#9*50@processMessage!52&7^35#9*66@
+pub|2|publishMessage!51&41^22#9*338@publishMessage!51&39^19#9*322@
+rat|15|rateInSec!60&3^38#5*35@rateInSec!61&23^22#5*195@rateInSec!86&23^34#13*195@rateInSec!54&37^12#5*307@rateInSec!87&37^16#13*307@rateInSec!63&25^17#5*211@rateInSec!88&25^23#13*211@rateInSec!62&11^27#5*99@rateInSec!89&11^39#13*99@rateInSec!55&33^14#5*275@rateInSec!90&33^22#13*275@rateInSec!55&31^11#5*259@rateInSec!90&31^19#13*259@rateInSec!62&15^32#5*131@rateInSec!89&15^44#13*131@
 ren|0|
 res|0|
-rot|6|rotateDeg!53&29^12#5*243@rotateDeg!87&29^21#13*243@rotateDeg!54&33^8#5*275@rotateDeg!88&33^28#9*275@rotateDeg!53&31^15#5*259@rotateDeg!87&31^24#13*259@
-run|7|run!53&29^25#9*242@run!60&23^24#9*194@run!52&35^19#9*290@run!59&11^41#9*98@run!53&31^28#9*258@run!58&21^36#9*178@run!59&15^46#9*130@
-sam|1|sampleCount!51&27^19#5*227@
-sec|1|section!80&19^20#9*163@
-sen|3|sensorData!74&21^52#25*179@sensorData!62&11^58#25*99@sensorData!62&15^66#25*131@
-ser|1|serverAddr!73&3^16#5*35@
-set|14|setStatusCode!55&13^73#9*114@setEnableLedFlag!52&35^28#9*290@setCommand!55&13^67#9*114@setDisplayMessage!53&31^46#9*258@setValue!55&13^82#9*114@set_rotation!54&33^27#9*274@setStateData!55&13^71#9*114@setName!55&13^69#9*114@setErrorCode!55&13^75#9*114@setName!51&27^44#9*226@setEnableLedFlag!53&31^43#9*258@setEnableLedFlag!53&29^40#9*242@setDisplayMessage!53&29^43#9*242@setDifValue!55&13^64#9*114@
-sh|4|sh!53&29^13#5*243@sh!87&29^23#9*243@sh!53&31^16#5*259@sh!87&31^26#9*259@
-sho|2|show_letter!54&33^29#9*274@show_message!54&33^31#9*274@
-sta|6|statusCode!55&13^29#5*115@statusCode!89&13^74#9*115@statusCode!67&13^87#9*115@stateData!55&13^30#5*115@stateData!90&13^72#9*115@stateData!67&13^89#9*115@
-tim|5|timeStamp!55&13^24#5*115@timeStamp!91&13^92#9*115@timeStamp!51&27^12#5*227@timeStamp!92&27^24#9*227@timeStamp!64&27^27#9*227@
-tot|2|totValue!51&27^18#5*227@totValue!64&27^28#9*227@
-upd|2|updateTimeStamp!55&13^91#9*114@updateData!55&13^85#9*114@
-val|3|val!55&13^31#5*115@val!93&13^83#9*115@val!67&13^90#9*115@
+rot|6|rotateDeg!55&31^12#5*259@rotateDeg!90&31^21#13*259@rotateDeg!56&35^8#5*291@rotateDeg!91&35^28#9*291@rotateDeg!55&33^15#5*275@rotateDeg!90&33^24#13*275@
+run|7|run!55&31^25#9*258@run!63&25^24#9*210@run!54&37^19#9*306@run!62&11^41#9*98@run!55&33^28#9*274@run!61&23^36#9*194@run!62&15^46#9*130@
+sam|1|sampleCount!53&29^19#5*243@
+sec|1|section!83&21^20#9*179@
+sen|3|sensorData!77&23^52#25*195@sensorData!65&11^58#25*99@sensorData!65&15^66#25*131@
+ser|2|serverAddr!59&19^14#5*163@serverAddr!92&19^28#9*163@
+set|14|setStatusCode!57&13^73#9*114@setEnableLedFlag!54&37^28#9*306@setCommand!57&13^67#9*114@setDisplayMessage!55&33^46#9*274@setValue!57&13^82#9*114@set_rotation!56&35^27#9*290@setStateData!57&13^71#9*114@setName!57&13^69#9*114@setErrorCode!57&13^75#9*114@setName!53&29^44#9*242@setEnableLedFlag!55&33^43#9*274@setEnableLedFlag!55&31^40#9*258@setDisplayMessage!55&31^43#9*258@setDifValue!57&13^64#9*114@
+sh|4|sh!55&31^13#5*259@sh!90&31^23#9*259@sh!55&33^16#5*275@sh!90&33^26#9*275@
+sho|2|show_letter!56&35^29#9*290@show_message!56&35^31#9*290@
+sta|6|statusCode!57&13^29#5*115@statusCode!93&13^74#9*115@statusCode!71&13^87#9*115@stateData!57&13^30#5*115@stateData!94&13^72#9*115@stateData!71&13^89#9*115@
+tim|5|timeStamp!57&13^24#5*115@timeStamp!95&13^92#9*115@timeStamp!53&29^12#5*243@timeStamp!96&29^24#9*243@timeStamp!67&29^27#9*243@
+tot|2|totValue!53&29^18#5*243@totValue!67&29^28#9*243@
+upd|2|updateTimeStamp!57&13^91#9*114@updateData!57&13^85#9*114@
+url|1|url!92&19^29#9*163@
+val|3|val!57&13^31#5*115@val!97&13^83#9*115@val!71&13^90#9*115@
 -- END TREE

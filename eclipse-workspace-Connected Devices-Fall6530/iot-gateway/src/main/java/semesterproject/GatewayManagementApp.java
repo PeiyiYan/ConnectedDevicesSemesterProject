@@ -14,6 +14,7 @@ public class GatewayManagementApp{
 		}
 	}
 	
+	//This is the main class to control all the connected gateway
 	public static void main(String[] args) {
 		GatewayManagementApp gatewayApp = new GatewayManagementApp();
 		gatewayApp.run();

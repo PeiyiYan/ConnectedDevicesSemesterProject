@@ -15,6 +15,7 @@ TemperatureSensorAdaptor.daemon = True
 print("Starting system performance app daemon thread...")
 TemperatureSensorAdaptor.enableEmulator = True
 #run start
+#This is the main class to control all the connected devices
 TemperatureSensorAdaptor.start()
 
 while (True):

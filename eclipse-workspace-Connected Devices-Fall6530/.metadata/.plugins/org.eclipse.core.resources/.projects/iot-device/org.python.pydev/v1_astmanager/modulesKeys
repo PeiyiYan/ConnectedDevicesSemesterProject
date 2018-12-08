@@ -30,6 +30,7 @@ labs.module08.__init__|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-
 labs.module09.__init__|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module09/__init__.py
 labs.module10.__init__|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/module10/__init__.py
 labs.semesterproject.CoAPClient|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/CoAPClient.py
+labs.semesterproject.MqttClientLocal|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/MqttClientLocal.py
 labs.semesterproject.SenseHatLedActivator|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SenseHatLedActivator.py
 labs.semesterproject.SmtpClientConnector|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/SmtpClientConnector.py
 labs.semesterproject.TemSensorAdaptor|/Users/rocky_yan/eclipse-workspace-Connected Devices/iot-device/apps/labs/semesterproject/TemSensorAdaptor.py
