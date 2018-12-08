@@ -23,7 +23,7 @@ sensordata = SensorData.SensorData()
 connector = SmtpClientConnector.SmtpClientConnector()
 emulator = TempActuatorEmulator.TempActuatorEmulator()
 sensehat = SenseHat()
-CoAPClient = CoAPClient.CoAPClient()
+CoAPClientt = CoAPClient.CoAPClient()
 
 actuatorData = ActuatorData.ActuatorData()
 
@@ -49,7 +49,7 @@ class TempSensorAdaptor (threading.Thread):
                 #TODO:get temperature from the Sensehat
                 self.curTemp = sensehat.get_temperature()
                 #TODO:use the POST method to post a topic which name is "temp", we can subscribe this topic from CoAP Server at Gateway.
-                CoAPClient.handlePostTest("temp", str(self.curTemp))
+                CoAPClientt.handlePostTest("temp", str(self.curTemp))
                 emulator.processMessage(self.curTemp)
                 print(self.curTemp)
                 sensordata.addValue(self.curTemp)
